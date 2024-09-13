@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+    "@protected": true,
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "UserAuthentication": {
+            "@context": {
+            "@propagate": true,
+            "@protected": true,
+            "polygon-vocab": "https://raw.githubusercontent.com/bethelplatform/Bethel-Schema-UserAuthV3/main/auth.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "auth": {
+            "@id": "polygon-vocab:auth",
+            "@type": "xsd:string"
+          }
+        },
+        "@id": "https://raw.githubusercontent.com/bethelplatform/Bethel-Schema-UserAuthV3/main/auth-v3.json-ld#UserAuthentication"
+      }
+    }
+  ]
+}
